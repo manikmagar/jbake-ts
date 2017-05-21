@@ -4,8 +4,13 @@ To build and install this for testing, checkout the codebase and run below comma
 ```
 gradlew distZip
 gradlew installDist
-cd build/install/jbake-ts
+cd build/install/jbake-ts/bin
 
+## List releases for a template
+jbake-ts -r manikmagar/jbake-future-imperfect-template
+
+
+## Install particular template version
 jbake-ts -t manikmagar/jbake-future-imperfect-template v1.1.0 awesome-jbake
 
 ```
